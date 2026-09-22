@@ -1,0 +1,11 @@
+Inicio 
+	
+Escribe "Introduce un numero: "
+	
+Lee num 
+	
+Mientras (num>10 or num<1) entonces
+	Escribe "Intentalo otra vez: "
+	Lee num
+	
+Fin

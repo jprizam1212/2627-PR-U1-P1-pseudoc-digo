@@ -1,0 +1,18 @@
+Inicio 
+
+Escribe "Escribe el primer numero: "
+Lee num1
+Escribe "Escribe el segundo numero: "
+Lee num2
+
+Si num1<num2 entonces 
+	Mientras num1<num2 
+	Escribe "num1,"
+	num1 = num1+1
+	
+SiNo 
+	Mientras num2<num1
+	Escribe "num2,"
+	num2 = num2+1
+
+Fin 
