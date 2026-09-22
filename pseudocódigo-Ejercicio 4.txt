@@ -1,0 +1,15 @@
+Inicio 
+	num = 1
+	suma = 0
+	intentos = 0
+	
+	Mientras num1!=0 hacer 
+		Escribe "Introduce un número (0 para terminar): "
+		Lee num
+		si num !=0 entonces 
+			suma = suma + num 
+			intentos  = intentos + 1
+	si num=0 hacer 
+		Escribe "La suma es: " + suma
+		Escribe "Intentos: "  + intentos 
+FIN
