@@ -1,0 +1,38 @@
+Inicio
+
+    Escribe "Escribe tres números: "
+    lee num1
+    lee num2
+    lee num3
+
+    Si num1 <= num2 and num1 <= num3 entonces
+
+        Si num2 <= num3 entonces
+            Escribe num1 + ", " + num2 + ", " + num3
+        Si no
+            Escribe num1 + ", " + num3 + ", " + num2
+        FinSi
+
+    Si no
+
+        Si num2 <= num1 and num2 <= num3 entonces
+
+            Si num1 <= num3 entonces
+                Escribe num2 + ", " + num1 + ", " + num3
+            Si no
+                Escribe num2 + ", " + num3 + ", " + num1
+            FinSi
+
+        Si no
+
+            Si num1 <= num2 entonces
+                Escribe num3 + ", " + num1 + ", " + num2
+            Si no
+                Escribe num3 + ", " + num2 + ", " + num1
+            FinSi
+
+        FinSi
+
+    FinSi
+
+Fin
