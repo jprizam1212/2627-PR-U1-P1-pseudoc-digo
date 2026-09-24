@@ -9,7 +9,7 @@ Inicio
 		si num !=0 entonces 
 			suma = suma + num 
 			intentos  = intentos + 1
-	si num=0 hacer 
+	si num == 0 hacer 
 		Escribe "La suma es: " + suma
 		Escribe "Intentos: "  + intentos 
 FIN
