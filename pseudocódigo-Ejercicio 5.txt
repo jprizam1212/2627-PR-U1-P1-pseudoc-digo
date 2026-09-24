@@ -1,0 +1,19 @@
+Inicio 
+
+	numSecreto = Aleatorio(1, 100)
+	num = 0
+	intentos = 0
+	
+	mientras num != numSecreto hacer 
+		Escribe "Adivina el numero secreto: "
+		lee num
+		intentos = intentos + 1
+		si num < numSecreto
+			Escribe "El numero es mas grande: "
+			
+		si num > numSecreto
+			Escribe "El numero es mas pequeño: "
+	
+	Escribe "El numero es correcto "
+			
+Fin
